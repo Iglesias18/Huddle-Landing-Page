@@ -1,0 +1,46 @@
+
+@media (max-width: 1200px) {
+  main {
+    flex-wrap: wrap;
+    
+   
+  }
+  .text p {
+    text-align: center;
+  }
+  .container img {
+    min-width: 100px;
+    display: flex;
+  }
+  .btn-button {
+    margin-left: 40%;
+  }
+}
+
+@media (max-width: 768px) {
+.cabecalho img{
+    margin-left: -50px;
+
+}
+  .social a {
+    display: flex;
+    margin-top: 20px;
+    justify-items: center;
+  }
+  @media (max-width: 400px) {
+    .text h1 {
+      text-align: center;
+    }
+    .text p {
+      text-align: center;
+    }
+    .btn-button {
+      margin-left: 80px;
+    }
+    .social a {
+      margin-top: 30px;
+      margin-left: 50px;
+  
+    }
+  }
+}
